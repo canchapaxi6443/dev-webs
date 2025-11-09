@@ -1,4 +1,5 @@
-const API = 'http://localhost:3000/api';
+// const API = 'http://localhost:3000/api'; // para uso local 
+const API = 'https://dev-webs-1.onrender.com/'; // para uso en produccion
 
 const form = document.getElementById('formularioTareas');
 const titulo = document.getElementById('titulo');
