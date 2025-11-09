@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 16px;
+}
+
+.contenedor-titulo {
+  background: #72c3f2;
+  padding: 2px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #2a3355;
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(1.1);
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #2a3355;
+}
+li:last-child {
+  border-bottom: 0;
+}
+.tareas {
+  margin-top: 15px;
+  background: #72c3f2;
+  padding: 2px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+
+.tarea-titulo.completado {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
